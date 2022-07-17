@@ -29,6 +29,7 @@ public class LoginPage {
 		this.driver=driver;
 		System.out.println("value of driver is from login page" +driver);
 		PageFactory.initElements(driver, this);
+
 	}
 	
 	
